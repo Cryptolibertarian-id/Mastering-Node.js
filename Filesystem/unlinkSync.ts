@@ -1,12 +1,12 @@
-import { unlink } from "node:fs/promises";
+import { unlinkSync } from "node:fs";
 
-async function doUnlink(path: string) {
+function doUnlinkSync(path: string) {
   try {
-    await unlink(`./${path}`);
+    unlinkSync(`./${path}`);
     console.log(`Successfully deleted ${path}`);
   } catch (error: any) {
     console.error("There was an error:", error?.message);
   }
 }
 
-doUnlink("delete.txt");
+doUnlinkSync("delete.txt");
