@@ -4,6 +4,7 @@ import { Buffer } from "node:buffer";
 const buf = Buffer.from("hello world", "utf8");
 console.log(buf); //<Buffer 68 65 6c 6c 6f 20 77 6f 72 6c 64>
 console.log(typeof buf); //object
+console.log(buf instanceof Buffer); // true);
 
 // Buffer to Base64 String
 console.log(buf.toString("base64")); //aGVsbG8gd29ybGQ=
