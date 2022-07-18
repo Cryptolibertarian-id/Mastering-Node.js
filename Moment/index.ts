@@ -23,12 +23,25 @@ class TimePower {
   public nowInHour() {
     console.log(moment().hour());
   }
+  public nowInUnixMilliseconds() {
+    console.log(moment().valueOf());
+  }
+  public nowInUnixSecond() {
+    console.log(moment().unix());
+  }
+  public today() {
+    console.log(moment().format("dddd"));
+  }
+  public thisMonth() {
+    console.log(moment().format("MMMM"));
+  }
+  public thisYear() {
+    console.log(moment().format("YYYY"));
+  }
+  public thisDayOfMonth() {
+    console.log(moment().format("DD"));
+  }
 }
-const tp = new TimePower("1");
-tp.now();
-tp.nowInUnix();
-tp.nowInHour();
-tp.nowInMinute();
-tp.nowInSecond();
 
-console.log(moment(moment().valueOf()).second());
+const tp = new TimePower("1000");
+tp.thisDayOfMonth();
