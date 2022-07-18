@@ -10,6 +10,8 @@
 
 ## Buffer
 
+What is Buffer? you can read my repository [here](https://github.com/Cryptolibertarian-id/The-Computer-Architecture-Course#memory). 
+
 
 
 1. Create Buffer from String
@@ -82,3 +84,17 @@
 
 1. Playing with Buffer
 2. Reserved
+
+
+
+---
+
+
+
+# FAQs
+
+
+
+## Difference Between Buffer & Stream
+
+So what is the difference between Stream & Buffer? **A buffer has a specified, definite length whereas a stream does not**. A stream is a sequence of bytes that is read and/or written to, while a buffer is a sequence of bytes that is stored.
