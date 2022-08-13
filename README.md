@@ -12,13 +12,31 @@
 
 ----
 
-Last touched on 28 July 2022
+*Last touched on 14 August 2022*
 
 | Parameter         | Value                                   | Note |
 | ----------------- | --------------------------------------- | ---- |
 | Official Website  | [Click Here](https://nodejs.org/en/)    |      |
 | Github Repository | [Click Here](https://github.com/nodejs) |      |
 | Node.js Blog      |                                         |      |
+
+
+
+----
+
+
+
+## Resources
+
+| Parameter          | Value                                              | Note              |
+| ------------------ | -------------------------------------------------- | ----------------- |
+| Repository bcrypto | [Click Here](https://github.com/bcoin-org/bcrypto) | JS Crypto Library |
+|                    |                                                    |                   |
+|                    |                                                    |                   |
+
+
+
+----
 
 
 
